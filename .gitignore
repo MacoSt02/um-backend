@@ -1,0 +1,10 @@
+node_modules/
+dist/
+scripts/
+coverage/
+.vscode/
+
+.env
+package-lock.json
+.DS_Store
+todo.md
