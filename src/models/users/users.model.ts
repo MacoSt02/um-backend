@@ -25,10 +25,7 @@ export class Users {
     firstname!: string;
   
     @Column({ type: 'varchar', length: 50, nullable: false })
-    lastname_1!: string;
-  
-    @Column({ type: 'varchar', length: 50, nullable: true })
-    lastname_2!: string;
+    lastname!: string;
   
     @Column({ type: 'date', nullable: true })
     birthdate!: Date;

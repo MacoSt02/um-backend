@@ -32,6 +32,8 @@ usersRoutes.get('/:id', async (ctx) => {
     ctx.body = user;
 });
 
+// POST
+
 usersRoutes.post('/', async (ctx) => {
     const userRepository = connectDB.getRepository(Users);
 
@@ -40,7 +42,7 @@ usersRoutes.post('/', async (ctx) => {
     try {
         const newUser = userRepository.create(userData);
 
-        const savedUser = await userRepository.save(newUser);
+        await userRepository.save(newUser);
 
         ctx.status = 201;
         ctx.body = 'User created correcly!!';

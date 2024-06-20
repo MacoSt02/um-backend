@@ -4,8 +4,7 @@ export interface RequestBody {
     email: string;
     role?: string;
     firstname: string;
-    lastname_1: string;
-    lastname_2?: string;
+    lastname: string;
     birthdate: Date;
 };
 
@@ -15,7 +14,6 @@ export type UserData = {
     email: string;
     role?: string;
     firstname: string;
-    lastname_1: string;
-    lastname_2?: string;
+    lastname: string;
     birthdate: Date;
 };
