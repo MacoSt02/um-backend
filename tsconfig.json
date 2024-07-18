@@ -17,7 +17,7 @@
       "strictNullChecks": true,
       "noImplicitAny": true,
       "emitDecoratorMetadata": true,
-      "experimentalDecorators": false
+      "experimentalDecorators": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
